@@ -18,7 +18,7 @@
 <body>
     <div class="header">
         <div class="top-bar">
-            <img src="igt_logo.png" alt="IGT Logo">
+           
             <div class="centered-text">GameDev Versions Tracker</div>
         </div>
   
