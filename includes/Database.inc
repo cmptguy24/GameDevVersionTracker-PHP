@@ -1,12 +1,12 @@
 <?php
 
-function Connect( $DB="172.22.100.45", $USER="cspcc", $PASS="#CSPCMT!K3rnel99" )
+function Connect( $DB="###.##.###.##", $USER="cspcc", $PASS="####" ) // SQL IP and Pass here
 {
      
         $connect = mssql_connect( $DB, $USER, $PASS) 
         or die ( mssql_get_last_message() );
 
-    mssql_query( "USE CSPCMTeamMarketIDs" );
+    mssql_query( "USE ###" ); // Table name here
     
     
      return $connect;
@@ -72,10 +72,10 @@ function DisplayQuery( $strQuery )
 
 function Addconnect() {
     // Database connection details
-    $serverName = "172.22.100.45";
-    $username = "cspcc";
-    $password = "#CSPCMT!K3rnel99";
-    $database = "CSPCMTeamMarketIDs";
+    $serverName = "###.##.###.##";
+    $username = "###";
+    $password = "####";
+    $database = "########";
 
     // Establish the connection
     $conn = mssql_connect($serverName, $username, $password);
